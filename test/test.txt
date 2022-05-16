@@ -1,1 +1,5 @@
 test git
+git status
+git add .
+git commit -m "messsqge"
+git push origin
