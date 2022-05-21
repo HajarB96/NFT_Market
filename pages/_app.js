@@ -6,35 +6,28 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <nav className="border-b p-6">
-        <p className="text-4xl font-bold">NFT Market</p>
+        <p className="text-4xl font-bold">Metaverse Marketplace</p>
         <div className="flex mt-4">
           <Link href="/">
             <a className="mr-4 text-pink-500">
-              Explore
+              Home
             </a>
           </Link>
           <Link href="/create-nft">
             <a className="mr-6 text-pink-500">
-              Stats
+              Sell NFT
             </a>
           </Link>
           <Link href="/my-nfts">
             <a className="mr-6 text-pink-500">
-              Resources
+              My NFTs
             </a>
           </Link>
           <Link href="/dashboard">
             <a className="mr-6 text-pink-500">
-              Create
+              Dashboard
             </a>
           </Link>
-          <Link href="/Account">
-            <a className="mr-6 text-pink-500"></a>
-          <ul>
-             <li><a href="#">Cours HTML et CSS</a></li>
-             <li><a href="#">Cours JavaScript</a></i>
-             <li><a href="#">Cours PHP et MYSQL</a></li>
-        </ul>
         </div>
       </nav>
       <Component {...pageProps} />
@@ -43,3 +36,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
+    
