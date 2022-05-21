@@ -28,6 +28,13 @@ function MyApp({ Component, pageProps }) {
               Create
             </a>
           </Link>
+          <Link href="/Account">
+            <a className="mr-6 text-pink-500"></a>
+          <ul>
+             <li><a href="#">Cours HTML et CSS</a></li>
+             <li><a href="#">Cours JavaScript</a></i>
+             <li><a href="#">Cours PHP et MYSQL</a></li>
+        </ul>
         </div>
       </nav>
       <Component {...pageProps} />

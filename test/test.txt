@@ -3,3 +3,11 @@ git status
 git add .
 git commit -m "messsqge"
 git push origin
+
+git branch
+git branch NewBranch
+git checkout NewBranch
+git status
+git add .
+git commit -m "messsqge branch"
+git push origin NewBranch
